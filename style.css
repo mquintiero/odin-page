@@ -76,6 +76,7 @@ li {
 .info {
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,21 +86,31 @@ li {
 
 .cards {
     display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .card {
     display: flex;
+    flex-basis: 175px;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+
+.card-text{
+    color: rgb(101, 101, 101);
+    font-size: 18px;
+    text-align: center;
 }
 
 .card .placeholder {
     border: solid #3882F6;
     background-color: white;
-    border-radius: 5px;
-    outline-width: 5px;
-    width: 150px;
-    height: 150px;
+    border-radius: 15px;
+    border-width: 5px;
+    width: 175px;
+    height: 175px;
 }
 
 .quote {
